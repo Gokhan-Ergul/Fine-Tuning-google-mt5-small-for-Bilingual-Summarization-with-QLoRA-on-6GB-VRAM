@@ -1,0 +1,2 @@
+# Fine-Tuning-google-mt5-small-for-Bilingual-Summarization-with-QLoRA-on-6GB-VRAM
+This repository documents the process of fine-tuning the `google/mt5-small` (300M parameters) model for a bilingual (Turkish &amp; English) summarization task. The primary challenge and focus of this project was to successfully execute this task on consumer-grade hardware with limited VRAM: an **NVIDIA GeForce RTX 3050 Laptop GPU with 6GB of VRAM**.
