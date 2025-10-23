@@ -13,7 +13,7 @@ The notebook (`Summarization.ipynb`) is a detailed log of the entire journey, in
 ---
 ## Final Model Status: A Learning Experience
 
-The final 8-epoch trained model (available on the Hub at `[gokhanErgul/mt5-small-finetuned-tr-en](https://huggingface.co/gokhanErgul/mt5-small-finetuned-tr-en)`) is **functionally broken**.
+The final 8-epoch trained model (available on the Hub at [gokhanErgul/mt5-small-finetuned-tr-en](https://huggingface.co/gokhanErgul/mt5-small-finetuned-tr-en)) is **functionally broken**.
 
 While the training *ran to completion* after fixing several stability bugs, a critical error in the initial data processing led to the model learning incorrect behavior. The model produces repetitive, nonsensical text starting with `<extra_id_0>`.
 
